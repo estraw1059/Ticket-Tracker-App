@@ -1,0 +1,12 @@
+.NavBarContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: rgb(26, 80, 99);
+}
+
+.NavBarItem {
+    margin: 1em;
+    flex: 1;
+    cursor: pointer;
+}
