@@ -3,6 +3,8 @@ export interface NavBarProps {
 
 export interface ParentCardProps {
     cardType: CardType;
+    component: React.ReactNode;
+    title: string;
 }
 
 export enum CardType {
